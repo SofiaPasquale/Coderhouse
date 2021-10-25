@@ -1,0 +1,17 @@
+$color0: #EDE0D4;
+$color1: #E6CCB2;
+$color2: #DDB892;
+$color3: #B08968;
+$color4: #7F5539;
+$color5: #9C6644;
+.navbar{
+    background-color: $color2;
+    position: sticky;
+}
+.navbar-brand{
+    font-family: 'Bebas Neue', cursive;
+}
+.navbar-brand:hover{
+    transform: scale(1.1);
+    background-color: $color1;
+}

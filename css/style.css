@@ -1,0 +1,290 @@
+.h1calzado {
+  color: #EDE0D4;
+  background-color: #7F5539;
+  font-size: 20px;
+  padding: 2rem, 5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.catalogo {
+  display: flexbox;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.grid-item {
+  flex-direction: column;
+  text-align: center;
+  border: 1px ridge #DDB892;
+  padding: 1rem 0;
+  margin-top: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  background: linear-gradient(to top, #EDE0D4, #B08968);
+}
+
+.portada {
+  display: flex;
+  background-image: url(../img/barker_ojotas.png);
+  height: 400px;
+}
+
+.portada .portada_texto {
+  padding: 6rem;
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+
+.intro {
+  padding: 1rem;
+}
+
+.intro .intro_titulo {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+.intro .intro_parrafo {
+  text-align: center;
+}
+
+#card_index {
+  padding: 0 2rem 1rem 2rem;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+#card_index .card {
+  margin-top: 1rem;
+  align-items: center;
+  border: 1px #E6CCB2 solid;
+  background-color: #EDE0D4;
+}
+
+#card_index .card-img-top {
+  height: 15rem;
+  transition: 1s all;
+}
+
+#card_index .card-img-top:hover {
+  transform: scale(1.2);
+}
+
+.btn {
+  color: #EDE0D4;
+  background-color: #7F5539;
+  border: 1px #E6CCB2 solid;
+}
+
+.h1contacto {
+  color: #EDE0D4;
+  background-color: #7F5539;
+  font-size: 20px;
+  padding: 2rem, 5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.introcontacto {
+  text-align: center;
+  padding: 1rem;
+}
+
+.introcontacto .introcontacto__lista {
+  font-style: italic;
+}
+
+.contactForm {
+  padding: 1rem 5rem;
+}
+
+.contactForm .btn {
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #DDB892;
+  display: block;
+  justify-content: space-around;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footerTitulo {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+}
+
+.footerRedes {
+  text-align: center;
+  font-style: italic;
+}
+
+.fab {
+  align-items: center;
+}
+
+button {
+  color: #EDE0D4;
+  background-color: #DDB892;
+  border: 1px #E6CCB2 solid;
+  align-items: center;
+  border: none;
+}
+
+.fab {
+  color: black;
+}
+
+.navbar {
+  background-color: #DDB892;
+  position: sticky;
+}
+
+.navbar-brand {
+  font-family: "Bebas Neue", cursive;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
+  background-color: #E6CCB2;
+}
+
+.h1preguntas {
+  color: #EDE0D4;
+  background-color: #7F5539;
+  font-size: 20px;
+  padding: 2rem, 5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-style: italic;
+}
+
+#introPreguntas {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.pregunta {
+  padding: 1rem 2rem;
+}
+
+.pregunta .pregunta__preguntas {
+  font-size: 18px;
+}
+
+.pregunta .pregunta__respuesta {
+  font-size: 1rem;
+}
+
+#maps {
+  height: 10rem;
+  width: 15rem;
+}
+
+.pagina_error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .navbar-brand {
+    font-size: 2rem;
+  }
+
+  .portada {
+    background-image: url(../img/Portada.png);
+    padding: 18rem;
+    height: 15rem;
+  }
+
+  .portada .portada__ver-productos {
+    font-size: 6rem;
+  }
+
+  .portada_texto {
+    font-size: 3rem;
+  }
+
+  #card_index {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 1fr, 1fr 1fr;
+  }
+
+  .card {
+    flex-direction: inline;
+  }
+
+  .card-body {
+    align-items: center;
+  }
+
+  .catalogo {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .grid-item {
+    display: inline-grid;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    border: ridge 1px #DDB892;
+  }
+
+  .h1contacto {
+    font-size: 2rem;
+  }
+
+  .h1preguntas {
+    font-size: 2rem;
+  }
+
+  .h1calzado {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #card_index {
+    padding: 0 2rem 1rem 2rem;
+    align-items: center;
+    margin-left: 2rem;
+  }
+
+  .card {
+    margin-top: 1rem;
+    align-items: center;
+    border: 1px #E6CCB2 solid;
+    background-color: #EDE0D4;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
