@@ -44,12 +44,14 @@ main{
 }
 
 #card_index{
-    display: grid;
+    display: flexbox;
     padding: 0 2rem 1rem 2rem;
     place-items: center;
-    grid-template-columns: 1fr;
+    
     .card{
-        
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
         margin-top: 1rem;
         align-items: center;
         border: 1px $color1 solid;
