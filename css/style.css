@@ -39,7 +39,6 @@ main {
   background-image: url(../img/barker_ojotas.png);
   height: 400px;
 }
-
 .portada .portada_texto {
   padding: 6rem;
   font-size: 3rem;
@@ -54,35 +53,31 @@ main {
 .intro {
   padding: 1rem;
 }
-
 .intro .intro_titulo {
   font-weight: bold;
   font-style: italic;
   text-align: center;
 }
-
 .intro .intro_parrafo {
   text-align: center;
 }
 
 #card_index {
+  display: grid;
   padding: 0 2rem 1rem 2rem;
-  align-items: center;
-  margin-left: 2rem;
+  place-items: center;
+  grid-template-columns: 1fr;
 }
-
 #card_index .card {
   margin-top: 1rem;
   align-items: center;
   border: 1px #E6CCB2 solid;
   background-color: #EDE0D4;
 }
-
 #card_index .card-img-top {
   height: 15rem;
   transition: 1s all;
 }
-
 #card_index .card-img-top:hover {
   transform: scale(1.2);
 }
@@ -107,7 +102,6 @@ main {
   text-align: center;
   padding: 1rem;
 }
-
 .introcontacto .introcontacto__lista {
   font-style: italic;
 }
@@ -115,7 +109,6 @@ main {
 .contactForm {
   padding: 1rem 5rem;
 }
-
 .contactForm .btn {
   justify-content: space-between;
 }
@@ -186,11 +179,9 @@ button {
 .pregunta {
   padding: 1rem 2rem;
 }
-
 .pregunta .pregunta__preguntas {
   font-size: 18px;
 }
-
 .pregunta .pregunta__respuesta {
   font-size: 1rem;
 }
@@ -217,7 +208,6 @@ button {
     padding: 18rem;
     height: 15rem;
   }
-
   .portada .portada__ver-productos {
     font-size: 6rem;
   }
@@ -271,7 +261,6 @@ button {
     font-size: 2rem;
   }
 }
-
 @media (max-width: 480px) {
   #card_index {
     padding: 0 2rem 1rem 2rem;
