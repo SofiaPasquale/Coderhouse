@@ -1,25 +1,26 @@
 .h1calzado {
-  color: #EDE0D4;
-  background-color: #7F5539;
-  font-size: 20px;
-  padding: 2rem, 5rem;
-  margin-bottom: 1rem;
-  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  color: black;
+  background-color: #E6CCB2;
+  font-size: 25px;
+  padding: 1rem;
+  text-align: start;
   font-style: italic;
 }
 
 .catalogo {
   display: flexbox;
   justify-content: space-around;
-  align-items: center;
   padding: 1rem;
 }
 
 .grid-item {
+  background-color: #EDE0D4;
   flex-direction: column;
   text-align: center;
-  border: 1px ridge #DDB892;
-  padding: 1rem 0;
+  align-items: center;
+  border: 1px ridge #B08968;
+  padding: 1rem;
   margin-top: 1rem;
 }
 
@@ -31,7 +32,7 @@
 }
 
 main {
-  background: linear-gradient(to top, #EDE0D4, #B08968);
+  background: linear-gradient(to bottom, #EDE0D4, #DDB892);
 }
 
 .portada {
@@ -65,11 +66,13 @@ main {
 #card_index {
   display: flexbox;
   padding: 0 2rem 1rem 2rem;
-  place-items: center;
+  border: 5px solid #B08968;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 #card_index .card {
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: column;
   margin-top: 1rem;
   align-items: center;
@@ -91,12 +94,12 @@ main {
 }
 
 .h1contacto {
-  color: #EDE0D4;
-  background-color: #7F5539;
-  font-size: 20px;
-  padding: 2rem, 5rem;
-  margin-bottom: 1rem;
-  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  color: black;
+  background-color: #E6CCB2;
+  font-size: 25px;
+  padding: 1rem;
+  text-align: start;
   font-style: italic;
 }
 
@@ -135,6 +138,7 @@ main {
 
 .fab {
   align-items: center;
+  color: black;
 }
 
 button {
@@ -143,10 +147,6 @@ button {
   border: 1px #E6CCB2 solid;
   align-items: center;
   border: none;
-}
-
-.fab {
-  color: black;
 }
 
 .navbar {
@@ -164,12 +164,12 @@ button {
 }
 
 .h1preguntas {
-  color: #EDE0D4;
-  background-color: #7F5539;
-  font-size: 20px;
-  padding: 2rem, 5rem;
-  margin-bottom: 1rem;
-  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  color: black;
+  background-color: #E6CCB2;
+  font-size: 25px;
+  padding: 1rem;
+  text-align: start;
   font-style: italic;
 }
 
@@ -244,6 +244,7 @@ button {
   }
 
   .grid-item {
+    justify-items: center;
     display: inline-grid;
     text-align: center;
     align-items: center;
@@ -253,26 +254,29 @@ button {
 
   .h1contacto {
     font-size: 2rem;
+    padding: 5px;
   }
 
   .h1preguntas {
     font-size: 2rem;
+    padding: 5px;
   }
 
   .h1calzado {
     font-size: 2rem;
+    padding: 5px;
   }
 }
 @media (max-width: 480px) {
   #card_index {
-    padding: 0 2rem 1rem 2rem;
     align-items: center;
     margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   .card {
     margin-top: 1rem;
-    align-items: center;
+    justify-items: center;
     border: 1px #E6CCB2 solid;
     background-color: #EDE0D4;
   }

@@ -5,12 +5,12 @@ $color3: #B08968;
 $color4: #7F5539;
 $color5: #9C6644;
 .h1preguntas{
-    color: $color0;
-  background-color: $color4;
-  font-size: 20px;
-  padding: 2rem, 5rem;
-  margin-bottom: 1rem;
-  text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    background-color: $color1;
+    font-size: 25px;
+    padding: 1rem;
+    text-align:start;
   font-style: italic;
 }
 #introPreguntas{

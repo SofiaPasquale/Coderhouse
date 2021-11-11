@@ -2,7 +2,6 @@
 @import "inicio";
 @import "contacto";
 @import "footer";
-@import "marroquineria";
 @import "navbar";
 @import "preguntas";
 @import "error";
@@ -51,7 +50,7 @@ $color5: #9C6644;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
     .grid-item{
-    
+    justify-items: center;
         display:inline-grid;
         text-align: center;
         align-items: center;
@@ -60,24 +59,28 @@ $color5: #9C6644;
     }
     .h1contacto{
         font-size: 2rem;
+        padding: 5px;
     }
     .h1preguntas{
         font-size: 2rem;
+        padding: 5px;
     }
     .h1calzado{
         font-size: 2rem;
+        padding: 5px;
     }
     
 }
 @media (max-width:480px){
     #card_index{
-        padding: 0 2rem 1rem 2rem;
+        
         align-items: center;
         margin-left: 2rem;
+        margin-right: 2rem;
     }
     .card{
         margin-top: 1rem;
-        align-items: center;
+        justify-items: center;
         border: 1px $color1 solid;
         background-color: $color0;
     }

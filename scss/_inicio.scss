@@ -11,7 +11,7 @@ $color3: #B08968;
 $color4: #7F5539;
 $color5: #9C6644;
 main{
-    background: linear-gradient(to top, #EDE0D4, #B08968);
+    background: linear-gradient(to bottom, #EDE0D4, $color2);
 }
 .portada{
     display: flex;
@@ -46,11 +46,13 @@ main{
 #card_index{
     display: flexbox;
     padding: 0 2rem 1rem 2rem;
-    place-items: center;
+    border: 5px solid $color3;
+    margin-left: 2rem;
+        margin-right: 2rem;
     
     .card{
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-direction: column;
         margin-top: 1rem;
         align-items: center;
