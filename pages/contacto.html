@@ -90,30 +90,18 @@
                 O escribinos un mensaje y nosotros nos ponemos en contacto!
             </p>
         </div>
-        <section class="contactForm">
-            <p>Formulario de contacto</p>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre completo"
-                    required>
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Número de teléfono</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="1133445566" required>
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="mb-3" id="botones-formulario">
-                <button class="btn" type="submit" value="Enviar">Enviar</button>
-                <button class="btn" type="reset">Borrar</button>
-            </div>
-        </section>
+        <div>
+            <form id="formularioContacto" action="https://formsubmit.co/sofipasquale98@gmail.com" method="POST">
+                <h2 id="formularioTitulo">CONTACTO</h2>
+                <input class="formularioInput" type="text" name="Nombre" placeholder="Nombre" required>
+                <input class="formularioInput" type="text" name="correo" placeholder="Email" required>
+                <input class="formularioInput" type="text" name="telefono" placeholder="Teléfono" required>
+                <textarea class="formularioInput" name="mensaje" id="" cols="30" rows="10" name="mensaje"
+                    placeholder="Escriba su mensaje..."></textarea>
+                <input type="submit" value="ENVIAR" class="boton">
+                <input type="reset" value="BORRAR" class="boton">
+            </form>
+        </div>
 
     </main>
     <footer class="footer">

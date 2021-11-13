@@ -27,3 +27,31 @@ $color5: #9C6644;
         justify-content: space-between;
     }
 }
+#formularioContacto{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.2 );
+    padding: 10px 20px;
+    border-radius: 5px;
+    align-items: center;
+}
+#formularioTitulo{
+    text-align: center;
+    font-weight: bold;
+}
+.formularioInput{
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 20px;
+}
+.boton{
+    background-color: #fff;
+    color: #000;
+    justify-content: space-between center;
+    padding: 5px;
+    border-radius: 3px;
+}
+.boton:hover{
+    background-color: black;
+    color: white;
+}
