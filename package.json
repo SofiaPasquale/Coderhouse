@@ -12,5 +12,8 @@
     "node"
   ],
   "author": "Sofia Pasquale",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
 }
